@@ -700,8 +700,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     height: 100vh;
     position: fixed;
     top: 0;
-    background-color: rgba(23, 26, 36, 0.2);
-    transition: opacity 200ms linear;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .modal {
@@ -709,7 +708,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     min-height: 581px;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+    border-radius: 4px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -723,8 +722,8 @@ border-radius: 4px;
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 8px;
     cursor: pointer;
 }
 
